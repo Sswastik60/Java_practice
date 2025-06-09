@@ -1,3 +1,4 @@
+package Java_practice;
 import java.util.Scanner;
 
 public class Calculator {
