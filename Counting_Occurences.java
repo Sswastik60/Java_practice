@@ -1,3 +1,5 @@
+package Java_practice;
+
 import java.util.Scanner;
 
 public class Counting_Occurences {
