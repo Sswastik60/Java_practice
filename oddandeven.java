@@ -12,7 +12,7 @@ public class oddandeven {
         } else {
             System.out.println("The number is odd");
         }
-
+        in.close();
     }
     static boolean iseven(int num){
         if(num%2==0){
