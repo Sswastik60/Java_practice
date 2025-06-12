@@ -16,6 +16,7 @@ public class Counting_Occurences {
             if (str.trim().charAt(j) == input.trim().charAt(0)) {
                 a=a+1;
                 System.out.println("Character found at index: " + j);
+                in.close();
             }
             
         }

@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class Calculator {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+    try (Scanner scanner = new Scanner(System.in)) {
         System.out.println("Welcome to the Calculator!");
         System.out.print("Enter first number: ");
         double num1 = scanner.nextDouble();
@@ -40,7 +40,7 @@ public class Calculator {
 // - %.2f → Another floating-point number (num2) with 2 decimal places.
 // - %.2f → Displays the result of the operation with 2 decimal places.
 // - %n → Inserts a newline, ensuring output is neatly separated.
-
     }
+}
     
 }

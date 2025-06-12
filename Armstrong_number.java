@@ -10,11 +10,13 @@ public class Armstrong_number {
         } else {
             System.out.println("It is not an Armstrong number.");
         }
+        
     }
     static boolean armstrong(){
         Scanner in = new Scanner(System.in);
         System.out.print("Enter a number: ");
         int num = in.nextInt();
+        in.close();
         int originalNum = num;
         int sum = 0;
         while (num>0) {
@@ -28,5 +30,6 @@ public class Armstrong_number {
             System.out.println(originalNum + " is not an Armstrong number.");
             return false; // It is not an Armstrong number
         }
+        
     }
 }
