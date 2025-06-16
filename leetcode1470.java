@@ -14,3 +14,20 @@ class Solution {
         return z;                           
     }
 }//Swaparrays
+
+/*Much efficient code:
+arrays can be appended int he following way for aternate swapping of the array
+
+class Solution {
+    public int[] shuffle(int[] nums, int n) {
+        int[] result = new int[2 *n];
+        int k = 0;
+
+        for (int i = 0; i < n; i++) {
+            result[k++] = nums[i];
+            result[k++] = nums[i + n];
+        }
+
+        return result;
+    }
+}*/
