@@ -1,0 +1,1 @@
+This is a repo for all my java practice codes and concepts.
