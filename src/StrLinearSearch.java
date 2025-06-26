@@ -1,6 +1,6 @@
 public class StrLinearSearch {
     public static void main(String[] args) {
-        String str="Swastik";
+        String str="swastik";
         String trgt="s";
         int c=strsearch(str,trgt);
         System.out.println(c);
