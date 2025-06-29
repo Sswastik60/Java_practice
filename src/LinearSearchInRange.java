@@ -4,7 +4,8 @@ public class LinearSearchInRange {
         int tgt=9;
         int startingidx=1;
         int endingidx=6;
-        System.out.print(search(startingidx,endingidx,arr,tgt));
+        int k=search(startingidx,endingidx,arr,tgt);
+        System.out.println(k);
     }
 
     static int search(int strt, int end, int[] array, int target) {
