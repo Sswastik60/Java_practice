@@ -15,6 +15,6 @@ public class LinearSearchInRange {
                 return i;
             }
         }
-        return -1; // ❗ only return -1 if NOT found after full loop
+        return -1; // ❗ only return -1 if NOT found after full loop ok
     }
 }
