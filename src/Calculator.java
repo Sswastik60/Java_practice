@@ -38,7 +38,7 @@ public class Calculator {
 // - %c → Represents a character (operator, like +, -, *, /).
 // - %.2f → Another floating-point number (num2) with 2 decimal places.
 // - %.2f → Displays the result of the operation with 2 decimal places.
-// - %n → Inserts a newline, ensuring output is neatly separated.
+// - %n → Inserts agg newline, ensuring output is neatly separated.
     }
 }
     
